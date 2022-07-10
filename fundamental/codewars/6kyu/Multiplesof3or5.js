@@ -6,8 +6,6 @@ Finish the solution so that it returns the sum of all the multiples of 3 or 5 be
 
 Note: If the number is a multiple of both 3 and 5, only count it once. */
 
-
-//not working yet
 function solution(number) {
   let sum = 0;
   for (let i = 1; i < number; i++) {
@@ -18,7 +16,6 @@ function solution(number) {
   return sum;
 }
 
-
-console.log(solution(10, 23))
+console.log(solution(10)) //23
 
 

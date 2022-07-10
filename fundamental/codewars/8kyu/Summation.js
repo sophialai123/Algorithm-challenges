@@ -20,8 +20,8 @@ const summation = function (num) {
   return sum;
 }
 
-console.log(summation(1), 1)
-console.log(summation(8), 36)
+// console.log(summation(1), 1)
+// console.log(summation(8), 36)
 
 
 
@@ -31,4 +31,18 @@ const summation4 = num => (
     .reduce((sum, item, index) => sum + index + 1, 0)
 );
 
-console.log(summation4(8), 36)
+//console.log(summation4(8), 36)
+
+
+
+
+const summation3 = n => n * (n + 1) / 2;
+console.log(summation3(8), 36)
+
+
+//very different solution
+function summation5(num) {
+  return num * (num + 1) / 2
+}
+
+console.log(summation5(8), 36)
