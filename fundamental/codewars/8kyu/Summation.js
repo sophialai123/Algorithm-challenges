@@ -33,11 +33,14 @@ const summation4 = num => (
 
 //console.log(summation4(8), 36)
 
+console.log(Array(8).fill(true))
 
+let filledArray = new Array(10).fill({ 'hello': 'goodbye' });
+console.log(filledArray)
 
 
 const summation3 = n => n * (n + 1) / 2;
-console.log(summation3(8), 36)
+//console.log(summation3(8), 36)
 
 
 //very different solution
@@ -45,4 +48,4 @@ function summation5(num) {
   return num * (num + 1) / 2
 }
 
-console.log(summation5(8), 36)
+//console.log(summation5(8), 36)
