@@ -1,0 +1,23 @@
+{
+  "name": "algorithm-challenges",
+  "version": "1.0.0",
+  "description": "Algorithm-challenges",
+  "main": "stringA.js",
+  "scripts": {
+    "test": " mocha ./fundamental/codewars/7kyu/test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sophialai123/Algorithm-challenges.git"
+  },
+  "author": "sophia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sophialai123/Algorithm-challenges/issues"
+  },
+  "homepage": "https://github.com/sophialai123/Algorithm-challenges#readme",
+  "dependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0"
+  }
+}
